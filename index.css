@@ -2,6 +2,11 @@
     border: 0;
 }
 
+.card1-text-container h1 {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    
+}
 /* Screen XL */
 @media screen and (min-width: 1201px){
     .main {
@@ -22,14 +27,15 @@
         color: #fcbf49;
         text-align: center;
         font-weight: 900;
-        font-size:45px;
-        margin-bottom: 20px;
+        font-size:50px;
+        margin-bottom: 25px;
     }
     
     .card1-text-container h2{
         color: white;
         text-align: center;
-        font-size: 20px;
+        font-size: 25px;
+        margin-bottom:15px;
         padding: 0 10px;
     }
 
@@ -157,7 +163,7 @@
         text-align: center;
         font-size: 20px;
         padding: 0 10px;
-        margin-bottom: 40px;
+        /* margin-bottom: 40px; */
     }
 
     .card1-text-container, .card2-text-container {
@@ -196,7 +202,7 @@
         font-weight: 900;
         font-size:40px;
         margin-top: 30px;
-        margin-bottom: 30px;
+        margin-bottom: 10px;
     }
 
     .card1-text-container h2{
@@ -215,6 +221,12 @@
     
 }
 
+.card1-img-container img {
+    transition: transform .2s;
+}
+.card1-img-container img:hover{
+    transform: scale(1.05);
+}
 
 .card-body {
     background-color: #6b433b;
@@ -233,6 +245,44 @@
     text-align: center;
 }
 
+
+/* Buttons */
+.button-38 {
+  background-color: #fcbf49;
+  border: 0;
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: #6b433b;
+  font-family: "League Spartan",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+  padding: .75rem 1rem;
+  text-align: center;
+  text-decoration: none #D1D5DB solid;
+  text-decoration-thickness: auto;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  transition: background-color .2s;
+}
+
+.button-38:hover {
+  background-color: #fca311;
+}
+
+.button-38:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.button-38:focus-visible {
+  box-shadow: none;
+}
 
 
 
