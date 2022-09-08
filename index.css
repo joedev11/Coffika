@@ -5,6 +5,10 @@
     border: 0;
 }
 
+.nav-link {
+    color:#6b433b!important;
+}
+
 .card1-text-container h1 {
     font-family: 'League Spartan', sans-serif;
     font-weight: 700;
@@ -16,10 +20,44 @@
         margin: 0 200px;
     }
 
+    .hero-section {
+        margin: 0 200px;
+    }
+
+    .hero-section img {
+        display: block;
+        width:100%;
+        
+    }
+
+    .slogan {
+        padding-top: 15px;
+        text-align: center;
+        margin: 90px 0 105px;
+        font-family: "League Spartan",sans-serif;
+        letter-spacing: 5px;
+        font-size: 60px;
+    }
+
+    .slogan-1 {
+        color:#6b433b;
+
+    }
+
+    .slogan-2 {
+        color:#6b433b;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    .slogan-2:hover{
+        color:#fca311;
+    }
+
     .card1, .card2 {
         display:flex;
         flex-wrap: nowrap;
-        background-color: #6b433b;
+        background: rgb(107, 67, 59,0.7) url("./Media/Iced\ Coffee\ 2.jpg");
         margin-top: 2rem;
         margin-bottom: 2rem;
         color: white;
@@ -30,16 +68,16 @@
         color: #fcbf49;
         text-align: center;
         font-weight: 900;
-        font-size:50px;
-        margin-bottom: 25px;
+        font-size: 60px;
+        margin-bottom: 30px;
     }
     
     .card1-text-container h2{
         color: white;
         text-align: center;
         font-size: 25px;
-        margin-bottom:15px;
-        padding: 0 10px;
+        margin-bottom:45px;
+        padding: 0 40px;
     }
 
     .card1-text-container, .card2-text-container {
@@ -50,30 +88,70 @@
 
     .card1-img-container, .card2-img-container {
         max-width: 50%;
+        /* height: 600px; */
     }
     
     .card1-img-container img, .card2-img-container img {
-        max-width: 100%;
+        object-fit: contain;
+        /* height: 400px; */
+        width: 100%;
+    }
+
+    .card2-video {
+        margin: auto;
+        width: 100%;
+        
     }
 }
 
 /* Screen Desktops */
 @media screen and (max-width: 1200px){
+    .hero-section img {
+        width: 100%;
+        
+    }
+    
+    .slogan {
+        padding-top: 15px;
+        text-align: center;
+        margin: 95px 0 100px;
+        font-family: "League Spartan",sans-serif;
+        letter-spacing: 3px;
+        font-size: 50px;
+    }
+
+    .slogan-1 {
+        color:#6b433b;
+
+    }
+
+    .slogan-2 {
+        color:#6b433b;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    .slogan-2:hover{
+        color:#fca311;
+    }
+
     .card1, .card2 {
         display:flex;
         flex-wrap: nowrap;
-        background-color: #6b433b;
+        background: rgb(107, 67, 59,0.7) url("./Media/Iced\ Coffee\ 2.jpg");
+        /* object-fit: cover; */
         margin-top: 2rem;
         margin-bottom: 2rem;
         color: white;
         text-align: center;
+        /* background-image: url("./Media/Iced\ Coffee\ 2.jpg"); */
     }
     
     .card1-text-container h1{
         color: #fcbf49;
         text-align: center;
         font-weight: 900;
-        font-size:45px;
+        font-size:50px;
         margin-bottom: 20px;
     }
 
@@ -82,11 +160,13 @@
         text-align: center;
         font-size: 22px;
         padding: 0 10px;
+        margin-bottom: 20px;
     }
 
     .card1-text-container, .card2-text-container {
         max-width:50%;
         margin: auto;
+        /* background-color: #6b433b; */
     
     }
 
@@ -101,6 +181,33 @@
 
 /* Screen Laptops */
 @media screen and (max-width: 1024px){
+    .hero-section img {
+        width: 100%;
+        
+    }
+    
+    .slogan {
+        padding-top: 15px;
+        text-align: center;
+        margin: 65px 0 80px;
+        font-family: "League Spartan",sans-serif;
+    }
+
+    .slogan-1 {
+        color:#6b433b;
+
+    }
+
+    .slogan-2 {
+        color:#6b433b;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    .slogan-2:hover{
+        color:#fca311;
+    }
+
     .card1, .card2 {
         display:flex;
         flex-wrap: nowrap;
@@ -115,14 +222,14 @@
         color: #fcbf49;
         text-align: center;
         font-weight: 900;
-        font-size:35px;
+        font-size: 45px;
         margin-bottom: 15px;
     }
 
     .card1-text-container h2{
         color: white;
         text-align: center;
-        font-size: 18px;
+        font-size: 20px;
         padding: 0 10px;
     }
 
@@ -143,13 +250,38 @@
 
 /* Screen Tablet */
 @media screen and (max-width: 768px){
+    .hero-section img {
+        width: 100%;
+        
+    }
+    
+    .slogan {
+        padding-top: 15px;
+        text-align: center;
+        margin: 65px 0 80px;
+        font-family: "League Spartan",sans-serif;
+        font-size: 45px;
+        letter-spacing: 3px;
+    }
+
+    .slogan-1 {
+        color:#6b433b;
+
+    }
+
+    .slogan-2 {
+        color:#fca311;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
     .card1, .card2 {
         display:flex;
         flex-direction:column;
         background-color: #6b433b;
         color: white;
         text-align: center;
-        margin: 2rem 0;
+        margin: 0 3rem;
     }
     
     .card1-text-container h1{
@@ -157,21 +289,21 @@
         text-align: center;
         font-weight: 900;
         font-size:40px;
-        margin-top: 30px;
+        margin-top: 20px;
         margin-bottom: 15px;
     }
 
     .card1-text-container h2{
         color: white;
         text-align: center;
-        font-size: 20px;
+        font-size: 18px;
         padding: 0 10px;
-        /* margin-bottom: 40px; */
     }
 
     .card1-text-container, .card2-text-container {
         max-width:100%;
         margin: auto;
+        height: 240px;
     
     }
 
@@ -189,6 +321,32 @@
 }
 /* Screen Mobile */
 @media screen and (max-width: 480px){
+    .slogan {
+        padding-top: 15px;
+        text-align: center;
+        margin: 55px 0 50px;
+        font-family: "League Spartan",sans-serif;
+        font-size: 35px;
+        padding: 0 10px;
+        letter-spacing: 3px;
+    }
+
+    .slogan-1 {
+        color:#6b433b;
+
+    }
+
+    .slogan-2 {
+        color:#fca311;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    
+    .hero-section img {
+        width: 100%;
+        
+    }
+    
     .card1, .card2 {
         display:flex;
         flex-direction:column;
@@ -203,7 +361,7 @@
         color: #fcbf49;
         text-align: center;
         font-weight: 900;
-        font-size:40px;
+        font-size:43px;
         margin-top: 30px;
         margin-bottom: 10px;
     }
@@ -252,7 +410,7 @@
 /* Buttons */
 .button-38 {
   background-color: #fcbf49;
-  border: 0;
+  border: 1px solid #6b433b;
   border-radius: .5rem;
   box-sizing: border-box;
   color: #6b433b;
