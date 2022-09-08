@@ -1,0 +1,47 @@
+
+.cfk-subnav {
+    padding: 0 40px 0 131px;
+    border: 1px solid lightgrey;
+    background-color: rgb(250, 250, 250);
+}
+.cfk-subnav-list {
+    display: flex;
+    flex-wrap: nowrap;
+    list-style-type: none;
+    text-decoration: none!important;
+    padding: 16px 0;
+    margin: 0;
+    
+}
+
+.cfk-subnav-item{
+    text-decoration: none!important;
+    color: black;
+    padding: 0 20px 0 0;
+    font-size: 0.9rem;
+    
+}
+
+.menu-img {
+
+}
+
+@media screen and (max-width: 768px){
+    .menu-img img {
+        margin-left: auto;
+        margin-right: auto;
+        width:100%;
+        display: block;
+        height:auto;
+    }
+}
+
+@media screen and (min-width: 769px){
+    .menu-img img {
+        margin-left: auto;
+        margin-right: auto;
+        width:80%;
+        display: block;
+        height:auto;
+    }
+}
