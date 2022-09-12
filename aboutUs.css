@@ -1,0 +1,24 @@
+/* Screen XL */
+@media screen and (min-width: 1201px){
+
+}
+
+/* Screen Desktop */
+@media screen and (max-width: 1200px){
+    
+}
+
+.card-title {
+    color: #fca311;
+    font-family: "League Spartan", sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+.card img {
+    transition: transform .2s;
+}
+.card img:hover{
+    transform: scale(1.05);
+}
