@@ -1,12 +1,68 @@
 /* Screen XL */
 @media screen and (min-width: 1201px){
-
+    .about-us-header {
+        font-family: "League Spartan", sans-serif;
+        font-size: 50px;
+        color:#fca311;
+        letter-spacing: 4px;
+        text-align: center;
+        margin-top: 60px;
+    }
 }
 
 /* Screen Desktop */
 @media screen and (max-width: 1200px){
-    
+    .about-us-header {
+        font-family: "League Spartan", sans-serif;
+        font-size: 50px;
+        color:#fca311;
+        letter-spacing: 4px;
+        text-align: center;
+        margin-top: 60px;
+    }
 }
+
+/* Screen Laptops */
+@media screen and (max-width: 1024px){
+    .about-us-header {
+        font-family: "League Spartan", sans-serif;
+        font-size: 50px;
+        color:#fca311;
+        letter-spacing: 4px;
+        text-align: center;
+        margin-top: 60px;
+    }
+}
+
+/* Screen Tablet */
+@media screen and (max-width: 768px){
+    .about-us-header {
+        font-family: "League Spartan", sans-serif;
+        font-size: 50px;
+        color:#fca311;
+        letter-spacing: 4px;
+        text-align: center;
+        margin-top: 60px;
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+}
+
+/* Screen Mobile */
+@media screen and (max-width: 480px){
+    .about-us-header {
+        font-family: "League Spartan", sans-serif;
+        font-size: 40px;
+        color:#fca311;
+        letter-spacing: 4px;
+        text-align: center;
+        margin-top: 60px;
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+}
+
+
 
 .card-title {
     color: #fca311;
@@ -16,9 +72,9 @@
     letter-spacing: 3px;
 }
 
-.card img {
+.card img, .card div {
     transition: transform .2s;
 }
-.card img:hover{
+.card img:hover, .card div:hover{
     transform: scale(1.05);
 }

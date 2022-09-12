@@ -258,10 +258,11 @@
     .slogan {
         padding-top: 15px;
         text-align: center;
-        margin: 65px 0 80px;
+        margin: 65px 10px 80px;
         font-family: "League Spartan",sans-serif;
         font-size: 45px;
         letter-spacing: 3px;
+        
     }
 
     .slogan-1 {
